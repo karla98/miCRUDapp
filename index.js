@@ -17,10 +17,10 @@ app.set('view engine', 'ejs');
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-    host: 'sql9.freemysqlhosting.net',
-    user: 'sql9330409',
-    password: '1IavvNPWVY',
-    database: 'sql9330409',
+    host: 'sql3.freemysqlhosting.net',
+    user: 'sql3330399',
+    password: 'UmhMnyFUYS',
+    database: 'sql3330399',
     port: 3306
 }, 'single'));
 app.use(express.urlencoded({ extended: false }));
